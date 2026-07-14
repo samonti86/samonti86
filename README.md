@@ -33,10 +33,9 @@ tool people quietly stop trusting.
 
 | Project | What it is |
 |---|---|
+| **[jarvis](https://github.com/samonti86/jarvis)** | Always-on Windows voice assistant with a 36-tool agentic layer built on Claude. Local wake word + speech-to-text, streamed TTS, sandboxed code execution, vision and security modes, phone and Discord clients. This is the one that shows how I actually work: 186 commits of specifying, testing, breaking, and fixing until the thing could be trusted. |
 | **[pc-tuneup](https://github.com/samonti86/pc-tuneup)** | Self-elevating Windows 10/11 maintenance script. Safe monthly routine, integrity repair, and an Event Viewer health analysis that surfaces real incidents. One `.ps1`, no dependencies, in-box PowerShell 5.1. Careful about the things that quietly break unattended maintenance — missing `winget`, third-party AV displacing Defender, native tools that report failure only via exit code. |
 | **[terminal-setup](https://github.com/samonti86/terminal-setup)** | My Windows terminal environment captured as code — Windows Terminal + PowerShell 7 + oh-my-posh. One script rebuilds it on a fresh PC. |
-
-*More coming — including a voice assistant built on LLM APIs and MCP tooling.*
 
 ## What I'm looking for
 
